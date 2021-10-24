@@ -36,8 +36,8 @@ TextReply = 'ههايات ؏ـمريہٰ ☹️💗'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'بوت' then
-TextReply = 'وياك حامي ݪڪࢪوب 🥳😹💗'
+if text == '@XCGCC' then
+TextReply = 'خوش مطور😹💗'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -281,6 +281,18 @@ TextReply = 'انيـہ حاميكم 😒😹💞'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+end
+
+if text == '@xcgcc' then
+TextReply = 'خوش مطور هذا 😹💗'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+
+if text == 'مطور السورس' then
+TextReply = 'هذا ؏ُـمريـہ :@XCGCC'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
 end
 
 if text == 'تفعيل ردود البوت' and Owner(msg) then
