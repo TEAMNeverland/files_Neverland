@@ -289,7 +289,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 
-if text == 'مطور السورس' then
+if text == 'مطور سورس' then
 TextReply = 'هذا ؏ُـمريـہ :@XCGCC'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
